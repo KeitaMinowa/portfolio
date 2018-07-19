@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style_works.css">
+    <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
+    <link rel="icon" href="img/icon/16x16.ico" sizes="16x16">
+    <link rel="icon" href="img/icon/32x32.ico" sizes="32x32">
+    <title>ワークス|Web</title>
+</head>
+<body>
+<header class="header">
+    <div class="wrapper header_wrapper">
+        <a href="index.html"><h1 class="site_title">ミノワケイタ ワークス</h1></a>
+        <a href="profile.html" class="header_item">プロフィール＆コンタクト</a>
+    </div>
+</header>
+
+<button class="btn-trigger" id="btn-trigger">
+    <svg viewBox="0 0 44 44" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-labelledby="menuButtonTitle">
+        <title id="menuButtonTitle">Menu</title>
+        <symbol id="bar">
+        <rect width="28" height="2" fill="#282828"></rect>
+        </symbol>
+        <use xlink:href="#bar" x="8" y="14"></use>
+        <use xlink:href="#bar" x="8" y="24"></use>
+        <use xlink:href="#bar" x="8" y="34"></use>
+    </svg>
+</button>
+
+<nav>
+    <ul class="nav">
+        <li><a href="index.html">ワークス一覧</a></li>|
+        <li><a href="works_product.html">プロダクト</a></li>|
+        <li><a href="works_funiture.html">店舗什器</a></li>|
+        <li><a href="works_web.html">Web(自主)</a></li>|
+        <li><a href="works_elec.html">電子工作(自主)</a></li>|
+        <li><a href="works_student.html">学生作品</a></li>|
+        <li><a href="works_remedy.html">修論</a>|
+        <li><a href="works_sketch.html">スケッチ</a></li>
+    </ul>
+</nav>
+
+<!-- navigation/responsive -->
+<nav>
+    <ul class="nav_resp" id="nav_resp">
+        <li><a href="index.html">ワークス一覧</a></li>
+        <li><a href="works_product.html">プロダクト</a></li>
+        <li><a href="works_funiture.html">店舗什器</a></li>
+        <li><a href="works_web.html">Web(自主)</a></li>
+        <li><a href="works_elec.html">電子工作(自主)</a></li>
+        <li><a href="works_student.html">学生作品</a></li>
+        <li><a href="works_remedy.html">修論</a>
+        <li><a href="works_sketch.html">スケッチ</a></li>
+        <li><a href="profile.html">プロフィール＆コンタクト</a></li>
+    </ul>
+</nav>
+<!-- navigation/responsive -->
+
+<div class="wrapper works">
+    <main class="works_list">
+        <ul class="explain">
+            <li class="explain_title">完璧な美を誇る金星</li>
+            <li>2018年|個人ワーク</li>
+            <li>使用言語 : HTML,CSS,JavaScript</li>
+
+            <li>地球と金星の公転軌道を結ぶ模様のアニメーション。公転周期のズレが幾何学模様を描きます。</li>
+        </ul>
+        <ul class="explain">
+            <li><a href="http://keitaminowa.sakura.ne.jp/venus_movement/" target="_blank">デモページリンク<span class="sub">＞</span></a></li>
+        </ul>
+        <video src="img/works_web/venus_low.mp4" controls loop></video>
+    </main>
+
+    <main class="wrapper works_list">
+        <ul class="explain">
+            <li class="explain_title">君だけの星座</li>
+            <li>2018年|個人ワーク</li>
+            <li>使用言語 : HTML,CSS,JavaScript</li>
+            <li>星座のお絵描きコンテンツ。自分だけの星座を描き、名前を付けることができます。</li>
+        </ul>
+        <ul class="explain">
+            <li><a href="http://keitaminowa.sakura.ne.jp/stardrawing_pc/page1.html" target="_blank">デモページリンク|PC<span class="sub">＞</span></a></li>
+            <li><a href="http://keitaminowa.sakura.ne.jp/stardrawing_tablet/page1.html" target="_blank">デモページリンク|タブレット<span class="sub">＞</span></a></li>
+        </ul>
+        <video src="img/works_web/star.mp4" controls loop></video>
+    </main>
+</div>
+
+
+<div class="arrow_footer" id="arrow_footer"><img src="img/arrow_footer.png" alt="上に戻る"></div>
+<footer class="footer text_center">
+    <small class="copyrights">&copy;2018/Keita Minowa 箕輪敬太</small>
+</footer>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
