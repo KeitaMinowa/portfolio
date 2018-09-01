@@ -1,3 +1,6 @@
+$("body").hide();
+$("body").fadeIn(500);
+
 $("#btn-trigger").on("click",function(){
     $("#nav_resp").fadeToggle(500);
     $("#btn-trigger").toggleClass("active");
@@ -16,7 +19,3 @@ arrow_footer.onclick = function () {
         behavior:'smooth'
     });
 };
-
-/*------------------------------
-works/slide
-------------------------------*/
