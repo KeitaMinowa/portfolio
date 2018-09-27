@@ -32,12 +32,12 @@
 </button>
 
 <nav>
-    <ul class="nav">
+    <ul class="nav" id="nav">
         <li><a href="index.html">ワークス一覧</a></li>|
         <li><a href="works_funiture.html">店舗什器</a></li>|
         <li><a href="works_product.html">プロダクト</a></li>|
-        <li><a href="works_web.html">Web(自主)</a></li>|
         <li><a href="works_elec.html">電子工作(自主)</a></li>|
+        <li><a href="works_web.html">Web(自主)</a></li>|
         <li><a href="works_student.html">学生作品</a></li>|
         <li><a href="works_remedy.html">修論</a>|
         <li><a href="works_sketch.html">スケッチ</a></li>
@@ -61,20 +61,6 @@
 <!-- navigation/responsive -->
 
 <div class="wrapper works">
-    <main class="works_list">
-        <ul class="explain">
-            <li class="explain_title">完璧な美を誇る金星</li>
-            <li>2018年|個人ワーク</li>
-            <li>使用言語 : HTML,CSS,JavaScript</li>
-
-            <li>地球と金星の公転軌道を結ぶ模様のアニメーション。公転周期のズレが幾何学模様を描きます。</li>
-        </ul>
-        <ul class="explain">
-            <li><a href="http://keitaminowa.sakura.ne.jp/venus_movement/" target="_blank">デモページリンク<span class="sub">＞</span></a></li>
-        </ul>
-        <video src="img/works_web/venus_low.mp4" controls loop></video>
-    </main>
-
     <main class="wrapper works_list">
         <ul class="explain">
             <li class="explain_title">君だけの星座</li>
@@ -85,10 +71,30 @@
             </li>
         </ul>
         <ul class="explain">
-            <li><a href="http://keitaminowa.sakura.ne.jp/stardrawing_pc/page1.html" target="_blank">デモページリンク|PC<span class="sub">＞</span></a></li>
-            <li><a href="http://keitaminowa.sakura.ne.jp/stardrawing_tablet/page1.html" target="_blank">デモページリンク|タブレット<span class="sub">＞</span></a></li>
+            <li><a href="http://keitaminowa.sakura.ne.jp/stardrawing_pc/page1.html" target="_blank" class="demoLink">デモページリンク|PC<span class="sub">＞</span></a></li>
+            <li><a href="http://keitaminowa.sakura.ne.jp/stardrawing_tablet/page1.html" target="_blank" class="demoLink">デモページリンク|タブレット<span class="sub">＞</span></a></li>
         </ul>
-        <video src="img/works_web/star.mp4" controls loop></video>
+        <!-- <video src="img/works_web/star.mp4" controls loop></video> -->
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/TuEsB_o5l6s?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <main class="works_list">
+        <ul class="explain">
+            <li class="explain_title">完璧な美を誇る金星</li>
+            <li>2018年|個人ワーク</li>
+            <li>使用言語 : HTML,CSS,JavaScript</li>
+
+            <li>地球と金星の公転軌道を結ぶ模様のアニメーション。公転周期のズレが幾何学模様を描きます。</li>
+        </ul>
+        <ul class="explain">
+            <li><a href="http://keitaminowa.sakura.ne.jp/venus_movement/" target="_blank" class="demoLink"><span>デモページリンク<span class="sub">＞</span></a></li>
+        </ul>
+        <!-- <video src="img/works_web/venus_low.mp4" controls loop></video> -->
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/B0oFgjCNks0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
     </main>
 </div>
 

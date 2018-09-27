@@ -42,6 +42,7 @@ header
     align-items: center;
     height: 60px;
     justify-content: space-between;
+    padding: 0 10px;
 }
 
 .site_title{
@@ -72,7 +73,7 @@ nav
 works
 --------------------------------*/
 .works{
-    max-width: 900px;
+    max-width: 980px;
 }
 
 .works_list{
@@ -93,8 +94,8 @@ works
 }
 
 .works_item{
-    max-width: 450px;
-    margin: 2px;
+    max-width: 490px;
+    margin: 1px;
     position: relative;
 }
 
@@ -181,13 +182,22 @@ profile
 }
 
 /*-------------------------------- 
-responsive
+responsive/1140or1020
 --------------------------------*/
-@media screen and (max-width:1140px){
+@media screen and (max-width:1020px){
     .wrapper{
         box-sizing: border-box;
-        padding: 0 10px;
+        
     }
+    .explain{
+        font-size: 1.4rem;
+    }
+
+    /* トップページには不要 */
+    /* .works{
+        max-width: 490px;
+    } */
+
 }
 
 @media screen and (max-width:640px){

@@ -1,6 +1,7 @@
 $("body").hide();
 $("body").fadeIn(500);
 
+// humberger menu
 $("#btn-trigger").on("click",function(){
     $("#nav_resp").fadeToggle(500);
     $("#btn-trigger").toggleClass("active");

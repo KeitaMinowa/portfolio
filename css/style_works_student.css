@@ -43,6 +43,7 @@ header
     align-items: center;
     height: 60px;
     justify-content: space-between;
+    padding: 0 10px;
 }
 
 .site_title{
@@ -70,7 +71,7 @@ nav
 works
 --------------------------------*/
 .works{
-    max-width: 900px;
+    max-width: 980px;
 }
 
 .works_list{
@@ -95,16 +96,16 @@ works
 }
 
 .works_item:hover{
-    transform: scale(1.7);
+    transform: scale(1.6);
     box-shadow: 0 0 8px #999;
 }
 
 .works_item img{
-    max-width: 450px;
+    max-width: 490px;
 }
 
 .explain{
-    margin: 0 auto 10px;
+    margin: 0 0 10px 10px;
     line-height: 2rem;
 }
 
@@ -146,10 +147,21 @@ footer_profile
 /*-------------------------------- 
 responsive
 --------------------------------*/
-@media screen and (max-width:1140px){
+@media screen and (max-width:1020px){
     .wrapper{
         box-sizing: border-box;
-        padding: 0 10px;
+    }
+
+    .explain{
+        font-size: 1.4rem;
+        
+    }
+    .works{
+        max-width: 490px;
+    }
+
+    .works_img{
+        display: none;
     }
 }
 
@@ -238,9 +250,9 @@ responsive
         max-width: 100%;
     }
 
-    .works_img{
+    /* .works_img{
         display: none;
-    }
+    } */
 
     .works_wrapper{
         display: block;
@@ -249,8 +261,9 @@ responsive
     .works_item img{
         margin: 2px auto;
     }
-    
+
     .explain{
+        margin: 0 auto 10px;
         font-size: 1rem;
     }
 }

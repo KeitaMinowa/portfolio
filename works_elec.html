@@ -36,8 +36,8 @@
         <li><a href="index.html">ワークス一覧</a></li>|
         <li><a href="works_funiture.html">店舗什器</a></li>|
         <li><a href="works_product.html">プロダクト</a></li>|
-        <li><a href="works_web.html">Web(自主)</a></li>|
         <li><a href="works_elec.html">電子工作(自主)</a></li>|
+        <li><a href="works_web.html">Web(自主)</a></li>|
         <li><a href="works_student.html">学生作品</a></li>|
         <li><a href="works_remedy.html">修論</a>|
         <li><a href="works_sketch.html">スケッチ</a></li>
@@ -50,8 +50,8 @@
         <li><a href="index.html">ワークス一覧</a></li>
         <li><a href="works_funiture.html">店舗什器</a></li>
         <li><a href="works_product.html">プロダクト</a></li>
-        <li><a href="works_web.html">Web(自主)</a></li>
         <li><a href="works_elec.html">電子工作(自主)</a></li>
+        <li><a href="works_web.html">Web(自主)</a></li>
         <li><a href="works_student.html">学生作品</a></li>
         <li><a href="works_remedy.html">修論</a>
         <li><a href="works_sketch.html">スケッチ</a></li>
@@ -63,19 +63,44 @@
 <div class="wrapper works">
     <main class="works_list">
         <ul class="explain">
-            <li class="explain_title">ランダムイルミネーション</li>
-            <li>2016年夏</li>
-            <li>使用ツール : Arduino/ATmega 5個連結</li>
-            <li><a href="https://youtu.be/nnJYNl1cvO0" target="_blank">youtubeデモページ<span class="sub">＞</span>
-                ※動画が遅い場合はこちら
-                </a>
+            <li class="explain_title">GenerativeControl</li>
+            <li>2018年8月</li>
+            <li>使用ツール : Arduino(Nefry),JavaScript</li>
+            <li>
+                JavaScriptで描画した模様を加速度センサーの値からパラメーター変化出来ます。<br>
+                NefryーHTTP通信(NodeRed:eneblar)ーFirebaseーJavaScripで値を受け取り。<br>
+                x軸、y軸傾きが波の本数、曲線の分割数に反映されます。
             </li>
         </ul>
-        <video src="img/works_elec/led.mp4" controls loop></video>
+
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/YPt8FCuuNfM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
         
         <div class="works_bottom">
             <ul class="works_wrapper">
-                <li class="works_item"><img src="img/works_elec/led_2.jpg" alt="ワークス"></li>
+                <li class="works_item"><img src="img/works_elec/wave_2.gif" alt="ワークス"></li>
+                <li class="works_item"><img src="img/works_elec/wave_3.jpg" alt="ワークス"></li>
+            </ul>
+        </div>
+    </main>
+
+
+    <main class="works_list">
+        <ul class="explain">
+            <li class="explain_title">ランダムイルミネーション</li>
+            <li>2016年7月</li>
+            <li>使用ツール : Arduino/ATmega328 5個連結</li>
+        </ul>
+
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/nnJYNl1cvO0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <!-- <video src="img/works_elec/led.mp4" controls loop></video> -->
+        
+        <div class="works_bottom">
+            <ul class="works_wrapper">
+                <li class="works_item"><img src="img/works_elec/led_2.gif" alt="ワークス"></li>
                 <li class="works_item"><img src="img/works_elec/led_3.jpg" alt="ワークス"></li>
             </ul>
         </div>
@@ -87,17 +112,16 @@
             <li>2017年春</li>
             <li>使用ツール : Arduino</li>
             <li>キネティックアートのプロトタイピング</li>
-            <li>
-                <a href="https://youtu.be/Ls1hMcQdy2M" target="_blank">youtubeデモページ<span class="sub">＞</span>
-                ※動画が遅い場合はこちら
-                </a>
-            </li>
         </ul>
-        <video src="img/works_elec/yura.mp4" controls loop></video>
+        
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/Ls1hMcQdy2M?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        
         <div class="works_bottom">
             <ul class="works_wrapper">
-                <li class="works_item"><img src="img/works_elec/yura_2.jpg" alt="ワークス"></li>
-                <li class="works_item"><img src="img/works_elec/yura_3.png" alt="ワークス"></li>
+                <li class="works_item"><img src="img/works_elec/yura_2.gif" alt="ワークス"></li>
+                <li class="works_item"><img src="img/works_elec/yura_3.gif" alt="ワークス"></li>
             </ul>
         </div>
     </main>
