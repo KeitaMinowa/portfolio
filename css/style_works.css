@@ -76,10 +76,6 @@ works
 .works_list{
     margin: 30px auto 80px;
 }
-/* 後で修正 */
-/* .works_list img{
-    margin: 0 0 5px 0;
-} */
 
 .works_wrapper{
     display: flex;
@@ -134,7 +130,7 @@ works
     right: 5px;
 }
 /*-------------------------------- 
-works_elec/video tag
+works_elec/video tag埋め込みの場合
 --------------------------------*/
 /* .works_list video{
     max-width: 980px;
@@ -144,13 +140,8 @@ works_elec/video tag
 /*-------------------------------- 
 id=video/youtubeリンク
 --------------------------------*/
-/* .video{
-    height: 504px;
-} */
 
 .video iframe{
-    /* position: absolute; */
-    /* height: 100%; */
     height: 551px;
     width: 100%;
     /* width="560" height="315"  */
