@@ -129,6 +129,11 @@ works
     bottom: 15px;
     right: 5px;
 }
+
+.titleLogo{
+    width: 300px;
+    margin: 8px auto;
+}
 /*-------------------------------- 
 works_elec/video tag埋め込みの場合
 --------------------------------*/
@@ -282,12 +287,12 @@ responsive
         margin-top: 80px;
     }
 
-    .works_list img{
-        max-width: 100%;
-    }
-
     .works_list{
         margin: 0 8px;
+    }
+
+    .works_list img{
+        max-width: 100%;
     }
 
     .works_wrapper{
@@ -304,6 +309,10 @@ responsive
 
     .explain,.explain_sub{
         font-size: 1rem;
+    }
+
+    .titleLogo{
+        width: 200px;
     }
 
 }

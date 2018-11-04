@@ -83,6 +83,12 @@ works
 .sub{
     font-size: 1.2rem;
     margin-left: 10px;
+    margin-bottom: 4px;
+    color: #888888;
+}
+
+.title{
+    margin: 8px 0px 4px 10px;
 }
 
 .works_title{
@@ -263,11 +269,11 @@ responsive/1140or1020
         background-color: rgba(255, 255, 255, 0.9);
         z-index: 1;
         text-align: center;
-        padding: 84px 0 0;
+        padding: 64px 0 0;
     }
 
     .nav_resp li{
-        margin: 0 0 40px;
+        margin: 0 0 30px;
     }
 
     .nav_resp li a{
@@ -283,6 +289,10 @@ responsive/1140or1020
 
     .works_wrapper{
         display: block;
+    }
+
+    .works_list{
+        margin: 0 8px;
     }
 
     .works_item{

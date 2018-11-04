@@ -228,11 +228,11 @@ responsive
         background-color: rgba(255, 255, 255, 0.9);
         z-index: 1;
         text-align: center;
-        padding: 84px 0 0;
+        padding: 64px 0 0;
     }
 
     .nav_resp li{
-        margin: 0 0 40px;
+        margin: 0 0 30px;
     }
 
     .nav_resp li a{
@@ -248,6 +248,10 @@ responsive
 
     .works_list img{
         max-width: 100%;
+    }
+
+    .works_list{
+        margin: 0 8px;
     }
 
     /* .works_img{
