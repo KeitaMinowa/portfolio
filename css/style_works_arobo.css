@@ -93,14 +93,27 @@ works
     max-width: 489px;
 }
 
+.explainConcept{
+    margin: 10px;
+    line-height: 2rem;
+    font-size: 1.4rem;
+}
+
+.explainProcess{
+    margin: 0px 10px 4px 10px;
+    line-height: 2rem;
+    font-size: 1.4rem;
+}
+
 .explain{
-    margin: 0 0 10px 10px;
+    margin: 12px 10px 0 10px;
     line-height: 2rem;
     font-size: 1.4rem;
 }
 
 .explain_title{
     font-weight: bold;
+    margin-bottom: 2px;
 }
 
 .demoLink{
